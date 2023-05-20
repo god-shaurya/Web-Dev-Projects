@@ -1,0 +1,46 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@600&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="title">Mess Survey Form</h1>
+    <p id="description">Give a few minutes to fill this survey form and help us improve our services</p>
+    
+      <form id="survey-form">
+
+  <label for="name" id="name-label">Name</label><input type="text" id="name" placeholder="Enter your Name" required>
+  <label for="email" id="email-label">Email(IITK)</label> <input  id="email" required type="email"placeholder="Enter your Email Id">
+  <label for="rollno" id="number-label">Roll No.</label> <input type="number"  min="200000" max="211999" id="number" placeholder="Enter your roll no" value="number">
+  <label for="satisfaction" class="response">How much you are satisfied with the mess services:</label> <label class="satisfaction" for="satisfaction"> <input type="radio" id="satidfaction" name="satisfaction" value="satisfaction"> Unhappy</label>
+  <label class="satisfaction" for="satisfaction"> <input type="radio" id="satidfaction" name="satisfaction" value="satisfaction"> happy</label>
+
+<label for="improve" class="improve">What would you like us to improve</label><label class="options"> <input type="checkbox" id="inprove" value="improv">Food Quality</label>
+<label class="options"> <input type="checkbox" id="inprove" value="improv">Staff Behavior</label>
+<label class="options"> <input type="checkbox" id="inprove" value="improv">Hygiene</label>
+<label class="options"><input type="checkbox" id="inprove" value="improv">Prices of extras</label>
+<label class="options" ><input type="checkbox" id="inprove" value="improv">Timings</label>
+<label class="drop">How much would you rate it (1 to 5)?</label>
+<select id="dropdown">
+  <option>Select One</option>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+
+</select>
+<label for="suggestion" class="suggestion">Anything you want to suggest: </label> <textarea rows="4" columns="10" id="comments">Enter your comment here...</textarea>
+<input type="submit" value="Submit" id="submit">
+
+
+      </form>
+  </body>
+</html>
+
+

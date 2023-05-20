@@ -1,0 +1,132 @@
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background: var(--color-darkblue);
+    background-image: linear-gradient( 115deg, rgba(200, 100, 100, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body{
+  color:white;
+}
+#description, #title{
+  text-align:center;
+}
+#title{
+  margin: 30px auto 5px auto;
+  padding: 2px 2px 2px 2px;
+}
+#description{
+  margin: 0px auto 30px auto;
+}
+#survey-form {
+    border: 2px solid white;
+    width: 50%;
+    height: 130%;
+    margin: 2px auto 7px auto;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap:wrap; */
+    background-color: #78244f;
+}
+#name-label{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+#name{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 0px 17px 7px 40px;
+    padding: 5px
+}
+#number-label{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+#number{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 0px 17px 7px 40px;
+    padding: 5px
+}
+#email-label{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+#email{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 0px 17px 7px 40px;
+    padding: 5px
+}
+.response{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+.satisfaction{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 3px 17px 0px 40px;
+    padding: 1px;
+}
+.improve{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+.options{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 3px 17px 0px 40px;
+    padding: 1px;
+}
+.drop{
+  width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+#dropdown{
+  width: 50%;
+    /* width: fit-content; */
+    margin: 3px 17px 0px 40px;
+    padding: 1px;
+}
+.suggestion{
+   width: fit-content;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+#submit{
+  width: fit-content;
+    margin: 13px auto 4px auto;
+    padding: 3px;
+}
+#comments{
+  width: 60%;
+    margin: 10px 17px 7px 40px;
+    padding: 1px;
+}
+@media only screen and (min-width: 1000px) {
+  #survey-form {
+    border: 2px solid white;
+    width: 50%;
+    height: 100%;
+    margin: 2px auto 7px auto;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+    /* flex-wrap:wrap; */
+    background-color: #78244f;
+    font-size: 20px;
+}
+}

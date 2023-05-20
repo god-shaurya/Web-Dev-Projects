@@ -1,0 +1,71 @@
+
+#main{
+    background-color: black;
+       color: white;
+       font-family: 'Roboto Mono', monospace;
+   }
+   #title{
+   text-align: center;
+       /* font: message-box; */
+       font-weight: bolder;
+       margin: 25px 2px 3px 4px;
+   }
+   p{
+     text-align: center;
+   }
+   #image{
+     border: 7px solid white;
+       width: 46%;
+       border-radius: 12px;
+       /* height: 75%; */
+       margin: 1px auto 2px auto;
+       display: block;
+       max-width: 100%;
+       height: auto;
+   }
+   #img-caption{
+     text-align: center;
+   }
+   #sec-title{
+     text-align: center;
+       margin: 30px 2px 25px 4px;
+   }
+   #tribute-info {
+       margin: 2px auto 4px auto;
+       width: 60%;
+   }
+   li{
+     margin: 35px auto 35px auto;
+   }
+   #quote{
+     text-align: center;
+       font-style: italic;
+       animation: glowing 2s infinite;
+   }
+   .bywho {
+       text-align: center;
+       font-style: italic;
+       animation: glowing 2s infinite;
+   }
+   #foot{
+     text-align: center;
+       margin: 30px;
+   }
+   a{
+     color:white;
+   }
+   a:hover {
+     color: #fff; /* Set the desired text color */
+     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #ff00de, 0 0 40px #ff00de, 0 0 50px #ff00de, 0 0 60px #ff00de; /* Set the desired shadow properties */
+   }
+   @keyframes glowing {
+     0% {
+       text-shadow: 0 0 5px #fff;
+     }
+     50% {
+       text-shadow: 0 0 20px #ff00de, 0 0 30px #ff00de;
+     }
+     100% {
+       text-shadow: 0 0 5px #fff;
+     }
+   }
