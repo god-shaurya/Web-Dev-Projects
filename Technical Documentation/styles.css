@@ -1,0 +1,41 @@
+#main-doc{
+    position: absolute;
+      margin: 0px 0px 0px 280px;
+  }
+  #navbar{
+    position: fixed;
+      border-right: 1px solid white;
+      height: 100vh;
+      margin-left: 0px;
+      color: white;
+  }
+  h3{
+    border: 1px solid gray;
+    height: 40px;
+    margin: 0px;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+  body{
+    background-color:black;
+    color: white;
+    font-family: 'Mukta', sans-serif;
+  }
+  code {
+    display: block;
+      background-color: white;
+      color: black;
+      padding: 12px;
+      border-radius: 12px;
+      /* margin: 0px; */
+      width: 75%;
+  }
+  a{
+    text-decoration:none;
+  }
+  h1{
+    height: 35px;
+    text-align: center;
+  }
